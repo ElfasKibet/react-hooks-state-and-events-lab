@@ -1,0 +1,30 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.App.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.App.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+button {
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.in-cart {
+  background-color: #d3ffd3;
+}
